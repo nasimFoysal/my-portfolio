@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.contact-btn {
+    color:white;
+    background-color: #F15B22;
+    border: none;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+/* Header Styles */
+
+.header { 
+    background-image: url("../images/banner/banner2.png");
+    height: 800px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 130px;
+   
+
+}
+
+
+.banner {
+    margin-left: 700px;
+    margin-top: 200px;
+    margin-right: 200px;
+    height: 525px;
+    width: 400px;
+    text-align: right;
+ 
+    
+}
+
+.banner-title {
+    font-size: 45px;
+   
+    margin-bottom: 26px;
+}
+
+.banner-description {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 26px;
+    color: #444343;
+
+}
+
+
+/* Failures styles */
+.failures{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 205px;
+}
+
+
+.failures-description {
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+
+}
+
+.failures-details {
+    width: 280px;
+    margin-left: 80px;
+}
+
+
+
+.failure-check-img {
+    height: 20px;
+}
+
+.failure-list {
+    display: flex;
+    margin-top: 12px;
+    gap: 10px;
+}
+
+
+
+
+
+/* plans styles */
+.plans {
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 130px;
+}
+
+.plans-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.plans-main-div {
+    display: flex;
+    justify-content:space-around;
+}
+
+.plans-sub-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.plans-name {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.plans-description {
+    color: #737272;
+}
+
+
+
+
+/* image blend styles */
+.image-blend {
+    margin-top: 130px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
+
+    margin-right: 230px;
+    margin-left: 230px;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-left: 60px;
+    border-radius: 10px;
+}
+
+.positive-mindset {
+    color: white;
+    padding-top: 100px;
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+/* motivations styles */
+.motivations {
+    margin-top: 130px;
+}
+
+.motivations-header {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.motivations-main-div {
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+}
+
+.motivations-container {
+    border-radius: 7px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.motivations-title {
+    font-size: 22px;
+    margin-top: 28px;
+    margin-bottom: 18px;
+
+}
+.motivations-description {
+    color: #737272;
+}
+
+.motivations-img {
+    height: 80px;
+}
+
+
+
+
+
+
+
+/* footer styles */
+footer {
+    margin-top: 130px;
+    background: #151414;
+    color: white;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.future {
+    width: 50%;
+    margin-top: 160px;
+}
+
+.future-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.future-description {
+    line-height: 26px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.future-icons {
+    margin-right: 20px;
+}
+
+.subscribe {
+    margin-top: 160px;
+   
+}
+
+.subscribe-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.email {
+    font-size: 18px;
+    padding: 21px 21px 21px;
+    border-radius: 5px;
+    background-color: #151414;
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: white;
+    display: block;
+}
+
+.subscribe-btn {
+    background-color:white;
+    color: #F15B22;
+    border: none;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
